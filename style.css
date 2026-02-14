@@ -27,9 +27,17 @@ body {
 }
 
 #envelope{
-    width: 200px;
+    width: 320px;
     animation: pulse 1.5s infinite;
     cursor: pointer;
+}
+
+#envelope-container p {
+    background: white;
+    padding: 12px 20px;
+    border-radius: 12px;
+    display: inline-block;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
 }
 
 #letter-container{
